@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>MusicTestWidget</title>
+
+	<link rel="stylesheet" href="Style.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="Stuff/bootstrap.min.css" type="text/css" media="screen"/>
+	
+	<script src="Scripts/main.js"></script>
+</head>
+<body>
+	<br/><br/><br/>
+	<div id="container">
+		<img id="albumArtPlaceholder" class="albumArt" src="Stuff/testImg2.png" onclick="goToAppleMusic()" />
+		<img id="albumArt" class="albumArt" src="/var/mobile/Documents/Artwork.jpg" onclick="goToAppleMusic()" />
+
+
+		<div id="musicInfoPlaceholderContainer">
+			No Music Playing
+		</div>
+		<div id="musicInfoContainer">		
+			<div id="musicInfo">
+				<div id="title">Title</div>
+				<div>
+					<span id="artist">Artist</span>
+					 &#8211; 
+					<span id="albumTitle">Album Name</span>
+				</div>
+				<div id="buttons">
+					<div class="button" onclick="prevtrack()"><img src="Stuff/rewind.png"/></div>
+					<div class="button" onclick="playpause()" id="pauseBtn"><img src="Stuff/pause.png"/></div>
+					<div class="button" onclick="playpause()" id="playBtn"><img src="Stuff/play.png"/></div>
+					<div class="button" onclick="nexttrack()"><img src="Stuff/ff.png"/></div>
+				</div>				
+			</div>
+		</div>
+	</div>
+</body>
+<html>
