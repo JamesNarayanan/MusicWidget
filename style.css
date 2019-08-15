@@ -38,3 +38,7 @@
 	width: auto;
 	filter: brightness(0) invert(1);
 }
+
+#title {
+	width: 240px;
+}
