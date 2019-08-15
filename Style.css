@@ -24,13 +24,14 @@
 	filter: brightness(0) invert(1);
 }
 #buttons {
+	margin-top: 5px;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-around;
 }
 .button {
 	height: 30px;
 	width: 30px;
-	margin-left: 20px;
 }
 .button img {
 	height: 100%;
